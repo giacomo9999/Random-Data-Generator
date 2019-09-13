@@ -1,0 +1,1 @@
+Generates random student mental-health data for use in testing MHealthverse app
