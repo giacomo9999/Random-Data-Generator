@@ -1,6 +1,8 @@
-var fs = require('fs');
+var fs = require("fs");
 
-fs.writeFile('mynewfile3.txt', 'This is my text', function (err) {
+const testText = { blah: [1, 2, 3, 4, 5, 6] };
+
+fs.writeFile("student_data.js", JSON.stringify(testText), function(err) {
   if (err) throw err;
-  console.log('Replaced!');
+  console.log("Replaced!");
 });
